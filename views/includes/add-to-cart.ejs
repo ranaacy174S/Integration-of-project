@@ -1,0 +1,11 @@
+<form action="/cart" method="POST">
+    <div class="form-control">
+        <select name="size" >
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select>
+    </div>
+    <button class="btn" type="submit">Add to Cart</button>
+    <input type="hidden" name="productId" value="<%=product.id%>">
+</form>
